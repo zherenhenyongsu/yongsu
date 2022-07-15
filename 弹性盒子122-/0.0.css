@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 350px;
+  margin: auto;
+}
+header {
+  height: 70px;
+  background-color: rgb(56, 55, 55);
+  display: flex;
+}
+header > span.iconfont {
+  display: flex;
+  flex: 1;
+  /* background-color: rgb(48, 37, 110); */
+  text-align: center;
+  line-height: 70px;
+  margin-right: px;
+  font-size: 40px;
+}
+.icon-zhangdan {
+}
+.zhangdan {
+  flex: 4;
+  font-size: 30px;
+  color: white;
+  /* text-align: center; */
+  line-height: 70px;
+  margin-right: 30px;
+}
+section {
+  flex: 1;
+  background-color: blueviolet;
+  display: flex;
+}
+footer {
+  height: 128px;
+  background-color: brown;
+  display: flex;
+}

@@ -1,0 +1,53 @@
+div {
+  width: 955px;
+  height: 1420px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  height: 124px;
+  background-color: rgb(37, 33, 49);
+  display: flex;
+}
+header > i {
+  width: 118px;
+  height: 124px;
+  line-height: 124px;
+  text-align: center;
+}
+header > span {
+  flex: 1;
+  height: 124px;
+  line-height: 124px;
+  text-align: left;
+  font-size: 40px;
+  color: beige;
+}
+section {
+  flex: 1;
+  display: flex;
+  /* flex-direction: column; */
+  background-color: aqua;
+}
+
+.sectionshang {
+  height: 128px;
+  display: flex;
+  background-color: rgb(37, 33, 49);
+  flex-direction: row-reverse;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+}
+.shangbox {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  /* width: 20px;
+  height: 40px; */
+  /* background-color: red; */
+}
+footer {
+  height: 128px;
+  background-color: gray;
+}

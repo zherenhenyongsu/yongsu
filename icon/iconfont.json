@@ -1,0 +1,65 @@
+{
+  "id": "3498511",
+  "name": "my tubiao",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "162780",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "629357",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "6302552",
+      "name": "账单",
+      "font_class": "zhangdan",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "8225383",
+      "name": "个人参数",
+      "font_class": "gerencanshu",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "1079472",
+      "name": "记账本",
+      "font_class": "jizhangben",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "1079507",
+      "name": "信用卡还款",
+      "font_class": "xinyongqiahuankuan",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "1214515",
+      "name": "扫一扫",
+      "font_class": "saoyisao",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "4397544",
+      "name": "付款",
+      "font_class": "fukuan",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}

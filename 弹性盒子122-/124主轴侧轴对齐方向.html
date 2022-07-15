@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 500px;
+        height: 500px;
+        border: 2px solid black;
+        margin: 100px auto;
+        display: flex;
+        /* 弹性盒子 */
+        justify-content: space-around;
+        /* 调整主轴对齐方向 默认:flex-start*/
+        /*flex-start
+          flex-end 
+          center
+          space-between 两端对齐,平父盒子宽度剩余作为间距
+          space-around 距离环绕 等值边距平分父盒子宽度剩余 */
+        align-items: center;
+        /* 调整侧轴对齐方向
+          flex-start
+          flex-end 
+          center
+          不是支持space-属性
+           */
+        /* flex-direction: column; */
+      }
+      .box div {
+        width: 50px;
+        height: 50px;
+        border: 1px dashed red;
+        /* margin: auto; */
+        /* margin:auto 只有一个元素的时候,元素主侧轴自动居中
+         多个时,主轴垂直于侧轴中点,且按主轴方向,外边距等值平分,父盒子宽度剩余 */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 弹性盒子是一种性的布局方式,特别适合移动端布局 -->
+    <!-- 内部元素影响:
+         1.子元素默认横向排列
+         2.行内元素,变成块级元素
+         3.margin:auto 只有一个元素的时候,水平垂直自动居中
+         多个时,主轴垂直于侧轴中点,且按主轴方向,外边距等值平分,父盒子宽剩余             
+         -->
+    <div class="box">
+      <div>11111</div>
+      <div>22222</div>
+      <div>33333</div>
+      <div>44444</div>
+    </div>
+  </body>
+</html>
